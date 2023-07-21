@@ -1,0 +1,29 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve",
+    "server": "json-server --watch ./src/db/db.json --port 9090"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.18.14",
+    "esbuild-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.3",
+    "json-server": "^0.17.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recoil": "^0.7.7"
+  }
+}
